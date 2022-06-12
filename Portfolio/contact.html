@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact</title>
   </head>
   <body>
     <hr />
-    <form action="" method="POST">
+    <form action="mailto:lerolero@gmail.com" method="POST">
       <table>
         <tr>
           <td><label for="POST-name">Name</label></td>
@@ -19,8 +19,10 @@
           <td><input type="email" id="POST-mail" name="mail" /></td>
         </tr>
         <tr>
-          <td><label for="POST-comment">Text</label></td>
-          <td><input type="text" name="comment" id="POST-comment" /></td>
+          <td><label for="POST-comment">Message</label></td>
+          <td>
+            <textarea type="text" name="comment" id="POST-comment"></textarea>
+          </td>
         </tr>
         <tr>
           <td><input type="submit" value="Send" /></td>
