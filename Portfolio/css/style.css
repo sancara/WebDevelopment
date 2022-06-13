@@ -1,5 +1,13 @@
 body {
-  background-color: #cdc2ae;
+  background-color: #cbf3f0;
+}
+
+h1 {
+  color: #00b4d8;
+}
+
+h3 {
+  color: #023e8a;
 }
 
 hr {
@@ -8,4 +16,8 @@ hr {
   border-color: #354259;
   border-width: 0.3rem;
   width: 5%;
+}
+
+img {
+  border-radius: 50%;
 }
