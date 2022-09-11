@@ -3,17 +3,28 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Gudea", sans-serif;
+  color: #40514e;
 }
 
 h1 {
   color: #00b4d8;
   font-family: "Amatic SC", cursive;
-  font-size: 60px;
+  font-size: 5.25rem;
 }
 
-h3 {
+h2 {
   color: #023e8a;
+  font-size: 2.5rem;
   font-weight: 100;
+}
+
+h3,
+a {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
 }
 
 .container {
@@ -22,9 +33,13 @@ h3 {
 }
 
 .middle-container {
+  margin: 100px 0;
+  background-color: #eaf6f6;
 }
 
 .bottom-container {
+  background-color: #11999e;
+  color: #eaf6f6;
 }
 
 .top-cloud {
@@ -37,4 +52,37 @@ h3 {
   position: absolute;
   left: 20%;
   bottom: 60%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row > img {
+  width: 15%;
+  float: left;
+  padding-right: 30px;
+}
+
+.btn {
+  background-color: #023e8a;
+  padding: 1rem;
+  display: inline-block;
+  margin: 25px;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #cbf3f0;
+}
+
+.profile-intro {
+  width: 50%;
+  margin: auto;
+}
+
+.profile-picture {
+  padding-top: 5%;
+  width: 200px;
+  height: 200px;
 }
