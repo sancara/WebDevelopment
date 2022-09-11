@@ -18,8 +18,7 @@ h2 {
   font-weight: 100;
 }
 
-h3,
-a {
+h3 {
   color: #11999e;
 }
 
@@ -32,6 +31,13 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 8% auto;
+}
+
+a {
+  color: #a7ece8;
+  text-decoration: none;
+  font-family: "Gudea", sans-serif;
+  margin: 10px 20px;
 }
 
 .container {
@@ -47,6 +53,7 @@ hr {
 .bottom-container {
   background-color: #11999e;
   color: #eaf6f6;
+  padding: 1% 0 1%;
 }
 
 .top-cloud {
