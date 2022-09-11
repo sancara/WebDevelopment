@@ -27,6 +27,13 @@ p {
   line-height: 2;
 }
 
+hr {
+  border: dotted #c1d2d2 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 8% auto;
+}
+
 .container {
   position: relative;
   padding: 5%;
