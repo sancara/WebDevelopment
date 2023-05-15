@@ -62,6 +62,12 @@ a {
   top: 2%;
 }
 
+.mountain {
+  max-width: 80%;
+  display: inline-block;
+  margin-top: 10%;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 20%;
